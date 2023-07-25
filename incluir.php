@@ -9,6 +9,32 @@
 </head>
 <body>
     <?php
+           echo "<h1>Archivos de inclusión de PHP</h1><br>";
+           //Supongamos que tenemos un archivo de pie de página estándar 
+           //llamado "footer.php", que se ve así:
+           //ejemplo:
+      
+          echo "<p>Copyright &copy; 1999-" . date("Y") . 
+          " W3Schools.com</p>";
+      
+      
+
+   
+     
+     
+
+    
+
+
+
+
+
+
+     
+
+
+
+
     ?>
     
 </body>

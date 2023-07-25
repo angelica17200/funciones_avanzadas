@@ -16,6 +16,24 @@
       
           echo "<p>Copyright &copy; 1999-" . date("Y") . 
           " W3Schools.com</p>";
+
+
+          echo "<h1>ejemplo</h1><br>";
+
+         <div class="menu">
+         <?php include 'menu.php';?>
+         </div>
+
+         <h1>Welcome to my home page!</h1>
+         <p>Some text.</p>
+         <p>Some more text.</p>
+
+
+          
+
+          
+
+
       
       
 

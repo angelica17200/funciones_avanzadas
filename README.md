@@ -70,9 +70,27 @@
 
 ![ejercicios](img/archivos.png)
 
+- un formulario HTML que permita a los usuarios elegir el archivo de imagen que desean cargar:
+
+- Algunas reglas a seguir para el formulario HTML anterior:
+
+- Asegúrate de que el formulario use method="post"
+El formulario también necesita el siguiente atributo: enctype="multipart/form-data". Especifica qué tipo de contenido usar al enviar el formulario
+Sin los requisitos anteriores, la carga del archivo no funcionará.
+
+- Otras cosas a tener en cuenta:
+
+- El atributo type="file" de la etiqueta <input> muestra el campo de entrada como un control de selección de archivos, con un botón "Examinar" junto al control de entrada.
+El formulario anterior envía datos a un archivo llamado "upload.php", que crearemos a continuación.
+
+
+
+
+
 # Archivos crear php
 
 ![ejercicios](img/)
+- 
 
 # carga de archivos 
 
@@ -80,7 +98,18 @@
 
 # cookis 
 
-![ejercicios](img/cookis.png)
+![ejercicios](img/coo.png)
+
+- Una cookie se utiliza a menudo para identificar a un usuario. Una cookie es un pequeño archivo que el servidor incrusta en la computadora del usuario. Cada vez que la misma computadora solicite una página con un navegador, también enviará la cookie. Con PHP, puede crear y recuperar valores de cookies.
+
+
+
+- Podemos usar la siguiente sintaxis: setcookie('nombre_cookie','',time() - 1); En cuanto ejecutemos la instrucción anterior, la cookie será destruida.
+
+- habilitar una cookie
+- El siguiente ejemplo crea un pequeño script que verifica si las cookies están habilitadas. Primero, intente crear una cookie de prueba con la setcookie()función, luego cuente la variable de matriz $_COOKIE:
+
+
 
 # sesiones php
 
